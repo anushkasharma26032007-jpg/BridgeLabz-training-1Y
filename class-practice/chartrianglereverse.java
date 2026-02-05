@@ -1,5 +1,5 @@
 import java.util.Scanner;
-    class numbertrianglereverse{
+    class chartrianglereverse{
          public static void main(String[] args){
          Scanner sc=new Scanner(System.in);		
           int n = sc.nextInt(); 
@@ -8,7 +8,7 @@ import java.util.Scanner;
 				 System.out.print(" "+" ");
 		     }
 			 for(int j=1;j<=i;j++){ //number
-		      System.out.print(j+" ");
+		      System.out.print((char)(j+64)+" ");
 				 
 	    	 }
           System.out.println();
