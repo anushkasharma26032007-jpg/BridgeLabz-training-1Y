@@ -1,0 +1,24 @@
+package loop50question;
+import java.util.Scanner;
+public class ducknumber1 {
+    static void main() {
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        int temp=n;
+        boolean isduck=true;
+        while(temp!=0){
+           int r=temp%10;
+         if(r==0){
+             isduck=true;
+             break;
+         }
+         temp=temp/10;
+        }
+        if(isduck){
+            System.out.println("duck number");
+        }
+        else{
+            System.out.println("not duck number");
+        }
+    }
+}
