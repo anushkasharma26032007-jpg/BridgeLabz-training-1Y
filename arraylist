@@ -1,0 +1,46 @@
+# aray limitation:
+# fixed size
+# continous memmory alocation
+# head to add/delete element in middle
+#wrapper class:- a class whose object contains a field which stores pdt.
+#ex-int - INteger 
+#char - CHARACTER
+#boolean :-Bollean
+the process in which int is converted into INteger in arraylist 
+is called autoboxing.
+or integer se int ko = unboxing kahte hai;
+primitive!         wrapper!
+int                Integer
+double              Double
+char                Character
+boolean             BOOLEAN
+long               long
+float              Float
+syntax for arraylist:-int [] arr = new int();
+$$ Arraylist<Integer> list = new Arraylist<>();
+## method in arraylist;
+list.add(6);//value add karne keliye
+list.add(6);
+l1.get(1);//index get karn wke liye
+list.get(0);
+list.size();//array ki length pata karne ke liye
+//print with for loop
+for(int i=0;i<size();i++){
+System.out .println(list.get(i);
+}
+//printing all the array list directly
+System.out.println(list);
+//adding element at some index i
+list.add(1,100);
+//moodify element at index i
+list.set(1,10);
+//remove an element at index i
+l1.remove(1);
+//removing an element e
+list.remove(ValueOf(7));
+//checking if an element exists
+Boolean ans = list.contains(Integer.valueOf(6));
+
+
+
+
